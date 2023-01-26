@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<title>Donor Form</title>
+
+ <head>
+    <link type="text/css" rel="stylesheet" href="Donor%20Form.css"> 
+    </head>
+    <body>
+    <header>
+        <div class="Navbar">
+            <p style="font-size:36px;padding-top:13px;margin-top:-10px;">Bank Loan Management System</p>
+        </div>
+        <nav class="navclass">
+            <ul>
+                <li><a href="Home%20page.html"><b>Home</b></a></li>
+                <li class="view"><a href="#"><b>View </b>
+                    <ul class="dropdown">
+                    <li><a href="Donorview.php"><b>Client Information</b></a></li>
+                    <li><a href="Donationview.php"><b>Bank Information</b></a></li>
+                    <li><a href="projectview.php"><b>Employee Information </b></a></li>
+                    </ul>
+                    </a></li>
+                <li class="insert"><a href="#"><b>Insert</b>
+                    <ul class="dropup">
+                    <li><a href="#"><b>Client Registration</b></a></li>
+                    <li><a href="Donation%20Form.html"><b>Bank Sheet</b></a></li>
+                    <li><a href="Project%20Form.html"><b>Employee Form</b></a></li>
+                    </ul></a></li>
+                <li><a href="Search%20page.html"><b><img src="search_box_icon.png" style="padding-right: 8px;" >     Search</b></a></li>
+				<li class=""><a href="#"><b>Report</b></a></li>
+            </ul>
+        </nav>
+    </header> 
+    
+    <center><h1 style="background-color: yellow; height:50px; width:450px;padding-top:10px;border-radius: 5px;">Client Registration Form</h1></center>      
+        <div class="form">
+        <form action="connection.php" method="POST">
+            <h3>Name :</h3>
+            <input type="text" name="name" placeholder="Enter Name">
+            
+            <h3>Id :</h3>
+            <input type="text" name="id" placeholder="Enter Id">
+           
+            <h3>Contact :</h3>
+            <input type="text/number" name="contact" placeholder="Enter contact">
+            
+            <h3>Address : </h3>
+            <input  type="text/number" name="address" placeholder="Enter Address">
+           
+           
+            <button type="submit" name="submit"><b>Register</b></button>
+            </form> 
+			
+					<div class="footer" style="background-color: black;margin-top:400px;">
+        <p>Md.Mashuir Rahman | ID 16103358 </p>
+        </div>
+        
+    </body>
+</html>

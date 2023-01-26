@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<title>Donation Form</title>
+
+ <head>
+    <link type="text/css" rel="stylesheet" href="Donation%20Form.css">
+    </head>
+    <body>
+    <header>
+        <div class="Navbar">
+          <p style="font-size:36px;padding-top:13px;margin-top:-10px;">Bank Loan Management System</p>
+        </div>
+        <nav class="navclass">
+            <ul>
+                <li><a href="Home%20page.html"><b>Home</b></a></li>
+                <li class="view"><a href="#"><b>View </b>
+                    <ul class="dropdown">
+                    <li><a href="Donorview.php"><b>Client Information</b></a></li>
+                    <li><a href="Donationview.php"><b>Bank Information</b></a></li>
+                    <li><a href="projectview.php"><b>Employee Information</b></a></li>
+                    </ul>
+                    </a></li>
+                <li class="insert"><a href="#"><b>Insert</b>
+                    <ul class="dropup">
+                    <li><a href="Donor%20Form.html"><b>Client Registration</b></a></li>
+                    <li><a href="#"><b>Bank Sheet</b></a></li>
+                    <li><a href="Project%20Form.html"><b>Employee Form</b></a></li>
+                    </ul></a></li>
+                <li><a href="Search%20page.html"><b><img src="search_box_icon.png" style="padding-right: 8px;" >     Search</b></a></li>
+				<li class=""><a href="#"><b>Report</b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <center><h1 style="background-color: green; height: 50px;width:250px;padding-top:10px; border-radius: 5px;">Bank Information</h1></center>
+
+        <div class="form">
+        <form action="donationconnection.php" method="POST">
+		     <h3>Name :</h3>
+            <input type="text/number" name="name" placeholder="">
+
+            <h3>Contact :</h3>
+            <input type="text/number" name="contact" placeholder="">
+
+            <h3>Address :</h3>
+            <input type="text/number" name="address" placeholder="">
+
+            <button type="submit" name="submit"><b>SUBMIT</b></button>
+            </form>
+        </div>
+
+		<div class="footer" style="background-color: black;margin-top:400px;">
+        <p>Md.Mashuir Rahman | ID 16103358 </p>
+        </div>
+    </body>
+</html>

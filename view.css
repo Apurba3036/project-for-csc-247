@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    padding: 0px;
+	background-color:white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    background: black;
+    color:white;
+    width:100%;
+    height: 70px;
+    margin-top:0px;
+    
+}
+
+header .navbar p{
+    margin-left: 15px;
+    padding-top: 15px;
+       
+}
+header ul{
+    float:right;
+    margin-top: -100px;
+    text-align: center;
+    margin-right: 150px;
+}
+header ul li{
+    display:inline-block;
+    padding-top: 45px;
+    padding-left:25px ;
+    padding-right: 25px;
+    position: relative;
+}
+header ul li a{
+    text-decoration: none;
+    color:white;
+}
+header .active a{
+    color:orange;
+    cursor:default;
+    
+}
+header ul li a:hover{
+    color: orange;
+}
+
+header ul li img{
+    float:right;
+    padding-top: 1px;
+    padding-left: 5px;
+    height: 13px;
+}
+
+ul .dropdown{
+    position:absolute;
+    background-color: black;
+    margin-top: 8px;
+    min-width: 115px;
+    margin-left: -30px;
+    padding-bottom: 5px;
+    text-align: left;
+    opacity: 0; 
+    border-radius: 5px;
+}
+
+ul .dropdown li{
+    text-align: left;
+    margin-left: -50px;
+    margin-right: -40px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.view:hover ul.dropdown{
+    opacity:1;
+}
+
+ul .dropup{
+    position:absolute;
+    background-color: black;
+    margin-top: 8px;
+    min-width: 87px;
+    margin-left: -30px;
+    padding-bottom: 5px;
+    text-align: left;
+    opacity: 0;
+    border-radius:5px;
+    
+}
+ul .dropup li{
+    text-align: left;
+    margin-left: -50px;
+    margin-right: -40px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.insert:hover ul.dropup{
+    opacity:1;
+}
+
+.form{
+    margin-top: 130px;
+    height: 480px;
+    width:900px;
+    background-color: black;
+    border: 2px solid silver;
+    margin-left: 230px;
+    margin-bottom: 40px;
+    opacity:0.8;
+}
+.form form{
+    margin-left: 20px;
+    padding: 20px;
+    padding-top: 110px;
+    float:center;
+}
+.form h3{
+    color: darkorange;
+  margin-left:250px;
+  margin-top:20px;
+
+}
+
+input{
+    height:20px;
+    width: 200px;
+    float:right;
+    margin-top:-38px;
+    margin-right:180px;
+}
+button{
+    height: 38px;
+    width: 80px;
+    position: center;
+    
+    color: white;
+    font-family: sans-serif;
+    background-color: orangered;
+    font-size: 14px;
+    border-radius: 30px;
+
+}
+.footer{
+    width:100%;
+    height: 35px;
+    margin-top:400px;
+    text-align: center;
+    color: orange;
+    background-color: black;
+    
+}
+.footer p{
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+.footer p:hover{
+    color: red;
+}
